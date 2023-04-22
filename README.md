@@ -43,14 +43,14 @@
 <p>select the device you are using</p>
 </li>
 <!-- <img src="C:\Users\sahil\OneDrive\Pictures\Screenshots\Screenshot(15).png"> -->
-<p>in my case i am using windows computer so ihave to choose windows computer option.</p>
+<p>in my case i am using windows computer so  I have to choose windows computer option.</p>
 
 
 <li>
-<p></p>
+<p>now copy the password that aapears</p>
 </li>
 
 <li>
-
+<p>paste the pasword in the the mail.php file 
 </li>
 </ol>
