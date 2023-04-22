@@ -54,3 +54,4 @@
 <p>paste the pasword in the the mail.php file 
 </li>
 </ol>
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Fnature&psig=AOvVaw2Hds8JxNf9aniM1IcNYYQC&ust=1682219917278000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLj_0dfDvP4CFQAAAAAdAAAAABAE">
