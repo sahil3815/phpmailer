@@ -10,42 +10,42 @@ $email = $_POST['email'];
 $subject = $_POST['subject'];
 $mobile = $_POST['mobile'];
 $message = $_POST['message'];
-$admin_mail = "sahilpayal81@gmail.com";
-$sender_mail = "sahilpayal84@gmail.com";
+$admin_mail = "example@domain.com";//replace with the email id on which you have to recieve the mail
+$sender_mail = "example@domain.com";//replace with the sender's email id
 $sender_name = "lit tutorials";
 $mail = new PHPMailer(true);
 try
 {
     $mail->isSMTP();
-    $mail->Host       = 'smtp.gmail.com';
+    $mail->Host       = 'smtp.gmail.com';//your smpt server
 
-    $mail->SMTPAuth   = true;
+    $mail->SMTPAuth   = true;//smtp authentication
 
-    $mail->Username   = 'sahilpayal84@gmail.com';
+    $mail->Username   = 'example@domain.com';//replace with your email address
 
-    $mail->Password   = 'hvzbbjcbryxbsvst';
+    $mail->Password   = 'password';//enter the password
 
-    $mail->SMTPSecure = 'tsl';
+    $mail->SMTPSecure = 'tsl';//stmp security
 
-    $mail->Port       = 587;
+    $mail->Port       = 587;//smpt port
 
-    $mail->setFrom($sender_mail , $sender_name);
+    $mail->setFrom($sender_mail , $sender_name);//sender's email id
 
-    $mail->Subject = $subject;
+    $mail->Subject = $subject;//subject
 
-    $mail->isHTML(true);
+    $mail->isHTML(true);//set the email to html format 
 
-    $mail->addAddress($admin_mail);
-    $mail->addAddress($email);
+    $mail->addAddress($admin_mail);//reciever email id 
+    $mail->addAddress($email);//another reciever's email id 
 
-    $message_1 = '<html><body>'.'<h4>Name: '.$firstname.'</h4>'.'<h4>Email: '.$email.'</h4>'.'<h4>Message: '.$message.'</h4>'.'<br><a href="tel:'.$mobile.'"><button>Call Sender</button></a>'.'</body></html>';
+    $message_1 = '<html><body>'.'<h4>Name: '.$firstname.'</h4>'.'<h4>Email: '.$email.'</h4>'.'<h4>Message: '.$message.'</h4>'.'<br><a href="tel:'.$mobile.'"><button>Call Sender</button></a>'.'</body></html>';//message 
 
-    $message_2 =  '<html><body>'.'<p>dear '.$firstname.',</p>'.'<p>thank you for contacting us</p>'.'<p>we have got you mail with the message: '.'</P>'.'<p>'.$message.'.</p>'.'<p>our team will contact you as soon as possible.</p>'.'<p>Thank you</p>'.'<p>Regards,</p>'.'<p>team <a href="https://littutorials.in/">Littutorials<a></p>'.'</body></html>';
+    $message_2 =  '<html><body>'.'<p>dear '.$firstname.',</p>'.'<p>thank you for contacting us</p>'.'<p>we have got you mail with the message: '.'</P>'.'<p>'.$message.'.</p>'.'<p>our team will contact you as soon as possible.</p>'.'<p>Thank you</p>'.'<p>Regards,</p>'.'<p>team <a href="https://littutorials.in/">Littutorials<a></p>'.'</body></html>';//another message
         
-    $mail->Body = $message_1;
+    $mail->Body = $message_1;//body
     $mail->send();
 
-    $mail->Body = $message_2;
+    $mail->Body = $message_2;//body
     $mail->send();
     header("Location:form.html");
 }
