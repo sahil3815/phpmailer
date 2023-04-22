@@ -43,6 +43,7 @@
 <p>select the device you are using</p>
 </li>
 <!-- <img src="C:\Users\sahil\OneDrive\Pictures\Screenshots\Screenshot(15).png"> -->
+!(https://drive.google.com/file/d/1DLpj4j3uLP7vC9kq2jpLhicsk9lHFsLa/view?usp=share_link)
 <p>in my case i am using windows computer so  I have to choose windows computer option.</p>
 
 
