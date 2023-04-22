@@ -54,3 +54,4 @@
 <p>paste the pasword in the the mail.php file 
 </li>
 </ol>
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
