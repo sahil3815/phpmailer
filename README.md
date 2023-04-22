@@ -54,4 +54,3 @@
 <p>paste the pasword in the the mail.php file 
 </li>
 </ol>
-<p> hello world</p>
