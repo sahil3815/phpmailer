@@ -11,16 +11,16 @@ This is a template to send HTML form data to multiple emails with multiple messa
 
  3. activate 2 step authentication 
  ![Screenshot13](https://user-images.githubusercontent.com/108147637/233760330-eec269e9-d9a7-4c87-a17d-5ad27eda8871.png)
- (i already have activated two step verification. If you don't have activated this, so first you have to activate two step verification first.) 
+ (i already activated two step verification. If it isn't activated in your case, then activate two step verification first.) 
  4. then go to the app passwords option in the 2 step verification option 
  ![Screenshot14](https://user-images.githubusercontent.com/108147637/233760376-dd858afa-4cec-49d0-bf42-6dfea01f440e.png)
  5.  create a app password.
  6. select the app you want to create password for. 
  ![Screenshot15](https://user-images.githubusercontent.com/108147637/233760406-c633a3a4-0f6f-4b67-8a16-f02f59462a5e.png)
- (we are creating this password to send mails so thats why we have to select mail option) 
+ (we are creating this password to send mails that's why we have to select mail option) 
  7. select the device you are using 
  ![Screenshot16](https://user-images.githubusercontent.com/108147637/233760418-b651a468-2d7a-4526-82a3-a9a48d5bf2b7.png)
- (in my case, I am using windows computer so  I have to choose windows computer option.) 
+ (in my case, I am using windows computer so I have to choose windows computer option.) 
  8. now copy the password that aapears 
 ![Screenshot17](https://user-images.githubusercontent.com/108147637/233760423-be2dc594-adae-4c58-8fa6-380d5ef02f1d.png)
 
